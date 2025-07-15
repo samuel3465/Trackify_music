@@ -1,0 +1,299 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+}
+
+.logo {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-links a:hover {
+  color: #1db954;
+}
+.slider {
+  position: relative;
+  max-width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  display: none;
+  object-fit: cover;
+  transition: opacity 1s ease;
+}
+
+.slide.active {
+  display: block;
+}
+
+button.prev, button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+button.prev { left: 10px; }
+button.next { right: 10px; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: white;
+  line-height: 1.6;
+}
+
+.hero {
+  background: url('images/hero.jpg') no-repeat center center/cover;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero button {
+  background: #1db954;
+  border: none;
+  padding: 15px 30px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: 0.3;
+}
+
+.hero button:hover {
+  background: #17a74a;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.track-grid,
+.genre-list,
+.artist-slider,
+.reviews {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.genre-card {
+  background: #1c1c1c;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.genre-card:hover {
+  transform: scale(1.05);
+  background: #292929;
+}
+
+.player-section .player {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.newsletter input[type="email"] {
+  padding: 12px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.newsletter button {
+  padding: 12px 20px;
+  background: #1db954;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+footer {
+  background: #111;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+footer .social-links a,
+footer .links a {
+  color: #ccc;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #1db954;
+}  
+
+
+.container {
+background: #1e1e1e;
+padding: 40px;
+border-radius: 12px;
+box-shadow: 0 0 20px rgba(255, 0, 100, 0.4);
+width: 300px;
+}
+
+h2 {
+margin-bottom: 20px;
+text-align: center;
+color: #ff0055;
+}
+
+input {
+width: 100%;
+padding: 10px;
+margin: 8px 0;
+border: none;
+border-radius: 6px;
+background: #333;
+color: white;
+}
+
+.login  button{
+width: 100%;
+padding: 10px;
+background: #ff0055;
+border: none;
+border-radius: 6px;
+color: white;
+cursor: pointer;
+margin-top: 10px;
+}
+
+.login button:hover {
+background: #e6004c;
+}
+
+p {
+margin-top: 10px;
+text-align: center;
+font-size: 0.9em;
+}
+
+a {
+color: #ff0055;
+text-decoration: none;
+}
+
+.form {
+display: none;
+}
+
+.form.active {
+display: block;
+}
+.artist-slider {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.artist-slider div {
+  text-align: center;
+  flex: 0 0 150px; /* Fixed width for consistency */
+}
+
+.artist-slider img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.artist-slider img:hover {
+  transform: scale(1.05);
+}
+
+.artist-slider p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+  #subscribeBtn {
+    background-color: limegreen;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  #subscribeBtn:hover {
+    background-color: green;
+  }
+
+  #message {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Navbar Example</title>                                                              
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo"><a href="html.html">TRACKIFY</a></div>
+    <ul class="nav-links">
+      <li><a href="ABOUT.html">About</a></li>
+      <li><a href="service.html">Services</a></li>
+      <li><a href="contacts.html">Contact</a></li>
+      <li><a href="login.html">login/signup</a></li>
+    </ul>
+  </nav>
+  <div class="slider">
+    <img src="music/musi.jpg" class="slide" />
+    <img src="music/ms.jpg"   class="slide" />
+    <img src="music/music.png" class="slide"/>
+    <button class="prev" onclick="prevSlide()">❮</button>
+    <button class="next" onclick="nextSlide()">❯</button>
+  </div>
+</head>
+<body>
+  <section class="hero">
+    <h1>Welcome to Trackify</h1>
+    <p>Stream the freshest tracks, discover new artists, and feel every beat.</p>
+    <button>Start Listening</button>
+  </section>
+
+
+
+<section id="contact" class="contact-section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Have questions, feedback, or just want to say hello? We'd love to hear from you!</p>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+        <p id="formStatus"></p>
+      </form>
+    </div>
+  </section>
+</footer>  <script src="java script.jsx"></script>
+<script src="contact.js"></script>

@@ -1,0 +1,39 @@
+.about-section {
+    background-color: #111;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .about-section .container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #00aced;
+  }
+  
+  .about-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .about-section button {
+    padding: 10px 20px;
+    background-color: #00aced;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .about-section button:hover {
+    background-color: #007ea8;
+  }
+  

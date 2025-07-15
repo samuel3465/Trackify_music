@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Navbar Example</title>                                                              
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="contact.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo"><a href="html.html">TRACKIFY</a></div>
+    <ul class="nav-links">
+      <li><a href="ABOUT.html">About</a></li>
+      <li><a href="service.html">Services</a></li>
+      <li><a href="contacts.html">Contact</a></li>
+      <li><a href="login.html">login/signup</a></li>
+    </ul>
+  </nav>
+  <div class="slider">
+    <img src="music/musi.jpg" class="slide" />
+    <img src="music/ms.jpg"   class="slide" />
+    <img src="music/music.png" class="slide"/>
+    <button class="prev" onclick="prevSlide()">❮</button>
+    <button class="next" onclick="nextSlide()">❯</button>
+  </div>
+</head>
+
+
+
+<section id="services" class="services-section">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-cards">
+        <div class="card" onclick="toggleDetail(this)">
+          <h3>🎵 Music Streaming</h3>
+          <p class="detail">
+            Enjoy unlimited streaming of your favorite tracks anytime, anywhere with high-quality audio.
+          </p>
+        </div>
+        <div class="card" onclick="toggleDetail(this)">
+          <h3>🔥 Trending Artists</h3>
+          <p class="detail">
+            Discover trending and upcoming artists across different genres, updated daily.
+          </p>
+        </div>
+        <div class="card" onclick="toggleDetail(this)">
+          <h3>📲 Smart Playlist</h3>
+          <p class="detail">
+            Create and manage your own playlists based on your mood, genre, or favorite artists.
+          </p>
+        </div>
+        <div class="card" onclick="toggleDetail(this)">
+          <h3>📢 Music Promotion</h3>
+          <p class="detail">
+            Are you an artist? Promote your songs and get featured on Trackify to reach new fans.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="java script.jsx"></script>
+  <script src="service.js"></script>
+
+
